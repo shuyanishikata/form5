@@ -1,0 +1,247 @@
+body{
+    font-family: 'Yu Gothic UI',sans-serif;
+
+}
+
+.title{
+    background-color: rgb(70, 26, 0);
+    font-weight: bold;
+    color:white;
+    font-size: 25px;
+    padding:10px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.title>h{
+    font-size: 15px;
+}
+
+.loginstatus{
+    font-size: 15px;
+    color: white;
+    margin:0 0 0 50px;
+    background-color: rgb(255, 38, 38);
+    height: 25px;
+    width: 80px;
+    padding:3px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hyoji{
+    background-color: rgb(255, 255, 214);
+    padding:20px;
+    top: 35px;
+    margin: 35px 0 0;
+}
+
+select{
+    cursor:pointer;
+}
+
+form{
+    margin: 0 0 20px;
+}
+
+textarea {
+    resize: none;
+    width:250px;
+    height:40px;
+    text-align: left;
+}
+
+.hyoji_table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+
+
+.item_name{
+    background-color: rgb(181, 89, 36);
+    color: rgb(255, 247, 184);
+    padding:10px;
+    text-align: center;
+    border-radius: 5px;
+    margin:5px;
+    border: none;
+}
+
+.item_entry{
+    background-color: rgb(255, 207, 180);
+    color: rgb(0, 0, 0);
+    padding:10px;
+    text-align: center;
+    transition: 0.3s;
+    margin:5px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.item_entry:hover{
+    opacity: 0.7;
+}
+
+.button{
+    background-color:rgb(196, 52, 0);
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.3); 
+    text-align:center;
+    /* justify-content:center */
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+
+.jump{
+    text-decoration:none;
+    display: block;
+    margin: 0 10px;
+    background-color:rgb(255, 255, 255);
+    line-height: 50px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(70, 26, 0);
+    border-width: 3px;
+    color: rgb(70, 26, 0);
+    font-weight: bold;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.3); 
+    text-align:center;
+    justify-content:center
+}
+
+.button_flex{
+    display: flex;
+}
+
+.menu_all{
+    display: block;
+    margin: 0 0 10px;
+    font-weight: bold;
+    padding:5px;
+    border: 1px dotted;
+    background-color: rgb(253, 240, 240);
+}
+
+
+.subtitle{
+    color: #a10d0d;/*文字色*/
+    padding: 0.5rem 0 0.5rem 10px;/*上下の余白*/
+    border-top: solid 3px #a10d0d;/*上線*/
+    border-bottom: solid 3px #a10d0d;/*下線*/
+    font-size: 25px;
+    background-color: rgb(243, 200, 200);
+
+}
+
+.menuflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menubox{
+    /* display: flex; */
+    height: 200px;
+    width: 200px;
+    margin:  5px;
+    font-weight: bold;
+    padding:5px;
+    border: 1px dotted;
+    background-color: rgb(247, 253, 240);
+    cursor:pointer;
+    color: #a10d0d;
+    overflow: hidden;
+    padding:5px;
+}
+
+.menubox:hover{
+filter: brightness(1.2) contrast(90%);
+}
+
+.menubox:active {
+    opacity: 1;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: flash;
+    animation-duration: 5s;
+    animation-name: flash;
+  }
+  @-webkit-keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+
+
+.menu_ryori{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 3px 0;
+}
+
+.menu_nedan{
+    margin: 3px 0;
+
+}
+
+#btn_passview{
+    /* text-decoration:none;
+    border-radius: 3px;
+    border: solid 1.5px black;
+    background-color: #fff;
+    height: 25px;
+    width: 60px;
+    font-size:10px; */
+
+    text-decoration:none;
+    display: block;
+    background-color:rgb(255, 255, 255);
+    line-height: 10px;
+    height: 25px;
+    width: 60px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(70, 26, 0);
+    border-width: 2px;
+    color: rgb(70, 26, 0);
+    font-weight: bold;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.3); 
+    text-align:center;
+    justify-content:center
+}
+
+.説明{
+    margin:3px;
+}
+
